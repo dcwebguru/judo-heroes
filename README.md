@@ -21,5 +21,5 @@ NODE_ENV=production node_modules/.bin/webpack -p
 # Start App
 node_modules/.bin/http-server src/static
 
-# View App
+# View App 
 http://localhost:8080/
