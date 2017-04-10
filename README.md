@@ -1,11 +1,24 @@
 # judo-heroes
 React - Judo Athletes - List &amp; Item Views
 
-# Clone App
-git clone https://github.com/dcwebguru/react-judo-heroes.git
-
-# Bootstrap our Node.js project allowing us to add all the needed dependencies
+# 1) Bootstrap our Node.js project allowing us to add all the needed dependencies
 npm init
+
+# 2) Add remote origin
+git remote add origin https://github.com/dcwebguru/react-judo-heroes.git
+
+# 3) Pull application files
+git pull origin master
+
+# 4) Start App
+node_modules/.bin/http-server src/static
+
+# 5) View App 
+http://localhost:8080/
+
+
+
+# OTHER COMMANDS
 	
 # Install babel, ejs, express, react and react-router
 npm install --save babel-cli@6.11.x babel-core@6.13.x  \ 
@@ -17,9 +30,3 @@ npm install --save-dev webpack@1.13.x babel-loader@6.2.x http-server@0.9.x
 
 # Create .js bundles
 NODE_ENV=production node_modules/.bin/webpack -p
-
-# Start App
-node_modules/.bin/http-server src/static
-
-# View App 
-http://localhost:8080/
