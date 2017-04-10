@@ -1,7 +1,10 @@
 # judo-heroes
 React - Judo Athletes - List &amp; Item Views
 
-# 1) Bootstrap our Node.js project allowing us to add all the needed dependencies
+
+# INSTALLATION
+
+# 1) Create an empty Git repository
 git init
 
 # 2) Add remote origin
@@ -20,6 +23,9 @@ http://localhost:8080/
 
 # OTHER COMMANDS
 	
+# Bootstrap our Node.js project allowing us to add all the needed dependencies
+npm init
+
 # Install babel, ejs, express, react and react-router
 npm install --save babel-cli@6.11.x babel-core@6.13.x  \ 
   babel-preset-es2015@6.13.x babel-preset-react@6.11.x ejs@2.5.x \   
