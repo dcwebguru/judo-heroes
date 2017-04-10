@@ -2,7 +2,7 @@
 React - Judo Athletes - List &amp; Item Views
 
 # 1) Bootstrap our Node.js project allowing us to add all the needed dependencies
-npm init
+git init
 
 # 2) Add remote origin
 git remote add origin https://github.com/dcwebguru/react-judo-heroes.git
